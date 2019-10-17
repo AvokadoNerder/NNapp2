@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "786362930893",
+    "firebase_url": "https://test-37f45.firebaseio.com",
+    "project_id": "test-37f45",
+    "storage_bucket": "test-37f45.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:786362930893:android:143bd3ffdf842101877b84",
+        "android_client_info": {
+          "package_name": "ru.worldskills.nnapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "786362930893-6h1136e2jt0vmfhvr6efeugflnru8or7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ru.worldskills.nnapp",
+            "certificate_hash": "7b86e105b2e2ba1594fadbd54c8eb66c8d4c4bff"
+          }
+        },
+        {
+          "client_id": "786362930893-n4m9dhk6nps12u5fl7cehmlpa1n5b9cl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuJQO4t-FB2irMVV5h2jWBYR4dpoi8vOo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "786362930893-n4m9dhk6nps12u5fl7cehmlpa1n5b9cl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".PeopleListActivity">
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:itemIconTint="#FFFFFF"
+        app:itemTextColor="#FFFFFF"
+        app:menu="@menu/tab_menu"
+        android:background="@color/colorPrimaryDark"
+        android:id="@+id/tab_pep">
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/pep_list"
+        android:layout_below="@+id/tab_pep"
+        android:layout_above="@+id/line3">
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <LinearLayout
+        android:id="@+id/line3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button1_3"
+            android:drawableTop="@drawable/ic_home_white"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:drawablePadding="-15dp"
+            android:onClick="onHomeClick"
+            android:text="Новости"
+            android:textSize="10sp"/>
+
+        <Button
+            android:id="@+id/button2_3"
+            android:drawableTop="@drawable/ic_list_chemp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:drawablePadding="-10dp"
+            android:text="Список чемпионатов"
+
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/button3_3"
+            android:drawableTop="@drawable/ic_list_us"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:drawablePadding="-10dp"
+            android:text="Список участников"
+            android:textColor="#FFFFFF"
+            android:textSize="10sp"/>
+
+        <Button
+            android:id="@+id/button4_3"
+            android:drawableTop="@drawable/ic_list_gallery"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+
+            android:drawablePadding="-15dp"
+            android:text="Галерея"
+            android:textSize="10sp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
